@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+.navbar{
+    background-color: blue;
+    height: 70px;
+}
+.navbar > img{
+    float: left;
+cursor: pointer;
+ width: 60px;
+ padding: 4px 26px;
+}
+.navbar > ul{
+    padding-top: 30px;
+    float: right;
+    display: flex;
+}
+.navbar > ul > li{
+    list-style-type: none;
+}
+#photo{
+    height: 400px;
+    width: 400px;
+}
+.selection{
+    display: flex;
+}
+div p {
+    margin-top: 140px;
+}
