@@ -1,15 +1,22 @@
 <html>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="login.css">
 <head><title>LogIn</title></head>
 <body>
+    <div class="box">
     <h2>LOG IN</h2>
-    <form>
-        <label>Email</label><br>
-        <input type="email" name="email" required=""><br><br>
-        <label>Password</label><br>
-        <input type="password" name="password" id="password" required="" ><br><br>
-          <button type="submit" name="button">LOG IN</button>
-        <p>Don't have an account?<a href="">Sign UP</a></p>
+    <form action="login.php" method="post">
+        <div class="inputbox">
+        <input type="email" name="email" required="">
+            <label>Email</label>
+        </div>
+        <div class="inputbox">
+        <input type="password" name="password" id="password" required="" >
+        <label>Password</label>
+        </div>
+      <div>
+          <button type="submit" name="button">LOG IN</button></div>
+        <p class="x">Don't have an account?<a href="cheist3.html">Create one</a></p>
         </form>
+    </div>
     </body>
 </html>
