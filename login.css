@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(work.jpg);
-    background-size: contain;
+    background: url(gtr1.jpg);
+    background-size: 1080px;
 
 }
 .box{
@@ -11,7 +11,7 @@ body{
     left: 77%;
     transform: translate(-50%,-50%);
     width: 300px;
-    height: 500px;
+    height: 400px;
     padding: 50px;
     background: #314955;
     box-sizing: border-box;
@@ -25,20 +25,26 @@ button{
     text-align: center;
     width: 200px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     color:white;
     font-weight: 400;
-    font-family: "Cooper Black";
+    font-family: "GFS Neohellenic";
+    font-weight:900;
     border: 3px solid #350005;
     letter-spacing: 5px;
     cursor: pointer;
     border-radius: 100px;
-    transition: 1.5s;
+    transition: 1s;
     background: #350005;
     
     
 }
+button:hover{
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    text-decoration: underline;
+}
 .box h2{
+    font-weight: bolder;
     margin: 0 0 30px;
     padding: 0;
     color: white;
@@ -59,7 +65,7 @@ button{
     color: white;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 4px solid #350005;
     outline: none;
 }
 .box .inputbox label{
@@ -68,8 +74,8 @@ button{
     left: 0;
     letter-spacing: 1px;
      padding: 10px 0;
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
+    color: rgb(197, 197, 197);
     pointer-events: none;
     transition: 1.5s;
     font-family: "GFS Neohellenic Regular";
@@ -80,7 +86,7 @@ button{
 {
     top: -18px;
     left: 0px;
-    color: aqua;
+    color: #350005;
     font-size: 20px;
 }
 .box input[type="submit"]
@@ -96,18 +102,18 @@ button{
     
 }
 .x{
-    font-family: "Cooper Black";
+    font-family: "GFS Neohellenic Regular";
+    font-weight:bolder;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 .box .x a{
     text-decoration: none;
-    color: aqua;
+    color: #350005;
     border-radius: 25px;
     transition: 1.5s;
 }
 .box .x a:hover{
-     box-shadow: 0 5px 50px 0 deepskyblue inset, 0 5px 50px 0 deepskyblue,
-                0 5px 50px 0 deepskyblue inset, 0 5px 50px 0 deepskyblue;
+    text-decoration: underline;
 }
 
