@@ -66,6 +66,7 @@ button:hover{
     color: white;
     margin-bottom: 30px;
     border: none;
+    border-radius: 10px;
     border-bottom: 4px solid #FD7700;
     outline: none;
 }
