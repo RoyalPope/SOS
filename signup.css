@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(gtr1.jpg);
-    background-size: 1080px;
+    background: url(gtr2.jpg);
+    background-size: 50%;
 
 }
 .box{
@@ -10,8 +10,8 @@ body{
     top: 50%;
     left: 77%;
     transform: translate(-50%,-50%);
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 470px;
     padding: 50px;
     background: #314955;
     box-sizing: border-box;
@@ -30,12 +30,13 @@ button{
     font-weight: 400;
     font-family: "GFS Neohellenic";
     font-weight:900;
-    border: 3px solid #350005;
+    border: 3px solid #FD7700;
     letter-spacing: 5px;
     cursor: pointer;
     border-radius: 100px;
     transition: 1s;
-    background: #350005;
+    background: #FD7700;
+    left: 25%;
     
     
 }
@@ -65,7 +66,7 @@ button:hover{
     color: white;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 4px solid #350005;
+    border-bottom: 4px solid #FD7700;
     outline: none;
 }
 .box .inputbox label{
@@ -73,7 +74,7 @@ button:hover{
     top: 0;
     left: 0;
     letter-spacing: 1px;
-     padding: 10px 0;
+    padding: 10px 0;
     font-size: 20px;
     color: rgb(197, 197, 197);
     pointer-events: none;
@@ -86,7 +87,7 @@ button:hover{
 {
     top: -18px;
     left: 0px;
-    color: #350005;
+    color: #FD7700;
     font-size: 20px;
 }
 .box input[type="submit"]
@@ -101,20 +102,40 @@ button:hover{
     border-radius: 12px;
     
 }
+.x{
+    margin: 0 10 30px;
+    padding: 0;
+    text-align: center;
+    font-family: "GFS Neohellenic Regular";
+    font-weight:bolder;
+    color: white;
+    font-size: 20px;
+}
 .box .x a{
     text-decoration: none;
-    color: #350005;
+    color: #FD7700;
     border-radius: 25px;
     transition: 1.5s;
 }
 .box .x a:hover{
     text-decoration: underline;
 }
-.x{
-    font-family: "GFS Neohellenic Regular";
-    font-weight:bolder;
-    color: white;
+.box .column{
+    display: flex;
+    column-gap: 25px;
+}
+.box .column .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
     font-size: 20px;
+    color: rgb(197, 197, 197);
+    pointer-events: none;
+    transition: 1.5s;
+    font-family: "GFS Neohellenic Regular";
+
 }
 .text{
     position: absolute;
@@ -136,7 +157,7 @@ button:hover{
     color: white;
     text-align: center;
     font-family: "GFS Neohellenic Regular";
-    font-size: 22px;
+    font-size: 25px;
     
 }
 .text p{
@@ -158,4 +179,3 @@ button:hover{
     height: 20px;
     cursor: pointer;
 }
-
