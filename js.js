@@ -30,7 +30,7 @@ tm.addEventListener('click', () => {
 
 var hr = parseInt(document.getElementById("time").value);
 
-if (hr>=6 && hr < 12) {
+if (hr>=5 && hr < 12) {
     alert('Good morning');
 }
 else if (hr >= 12 && hr < 18){
