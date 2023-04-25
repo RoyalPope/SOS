@@ -26,16 +26,27 @@
 
 // }
 
-tm.addEventListener('click', () => {
+// tm.addEventListener('click', () => {
 
-var hr = parseInt(document.getElementById("time").value);
+// var hr = parseInt(document.getElementById("time").value);
 
-if (hr>=5 && hr < 12) {
-    alert('Good morning');
+// if (hr>=5 && hr < 12) {
+//     alert('Good morning');
+// }
+// else if (hr >= 12 && hr < 18){
+//     alert('Good Afternoon');
+// }
+// else
+//     alert('good evening');
+// })
+// var myDiv = document.getElementById("root");
+// var p = document.createElement("p");
+// p.innerHTML = "Liverpool";
+// myDiv.append(p)
+
+function change(){
+    document.getElementById("pic").src="gtr2.jpg";
 }
-else if (hr >= 12 && hr < 18){
-    alert('Good Afternoon');
+function back(){
+        document.getElementById("pic").src="gtr1.jpg";
 }
-else
-    alert('good evening');
-})
