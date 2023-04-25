@@ -23,7 +23,7 @@ a{
     font-size: 1rem;
 }
 a:hover{
-    cover: orange;
+    color: orange;
 }
 header{
     position: relative;
@@ -35,4 +35,12 @@ header{
     height: 60px;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
 }

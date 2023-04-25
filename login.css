@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background: url(gtr1.jpg);
-    background-size: 1080px;
+    background-size: cover;
+    background-position: center;
 
 }
 .box{
