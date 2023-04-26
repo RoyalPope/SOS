@@ -23,7 +23,7 @@ a{
     font-size: 1rem;
 }
 a:hover{
-    color: orange;
+    color: #350005;
 }
 header{
     position: relative;
@@ -58,7 +58,7 @@ header{
 }
 
 .action_btn{
-    background-color: orange;
+    background-color: #350005;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -71,7 +71,7 @@ header{
 }
 .action_btn:hover{
     scale: 1.05;
-    color: #fff;
+    color: #350005;
 }
 .action_btn:active{
     scale: 0.95;
