@@ -50,9 +50,6 @@
 // function back(){
 //         document.getElementById("pic").src="gtr1.jpg";
 // }
-const btn = document.getElementById('btn');
-var email = document.getElementById("email");
-var password = document.getElementById("password");
 // var label = document.getElementById("label");
 // var msg = document.getElementById("msg");
 // function validateEmail(){
@@ -61,6 +58,10 @@ var password = document.getElementById("password");
 //         return false;
 //     }
 // }
+const btn = document.getElementById('btn');
+var email = document.getElementById("email");
+var password = document.getElementById("password");
+
 btn.addEventListener('click', (e) => {
     e.preventDefault();
     var email_value = document.getElementById('one').value;
