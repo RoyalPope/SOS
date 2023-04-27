@@ -35,12 +35,19 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio dolorum totam beatae molestiae error ducimus sed, deserunt asperiores commodi quos exercitationem natus aliquam quam at accusantium porro velit ipsum quod?</p>
     </div>
     </selection>
-    <form action="">
-        Number one: <input type="text" id="one"><br><br>
-        Number two: <input type="text" id="two">
-        <button onclick="sum()" id="btn">add</button>
-    </form><br>
     <form>
+        <div class="email" id="email">
+            <p>Email less than 6 chars</p>
+        </div>
+        <label id="label">Email: </label><input type="email" id="one" spellcheck="false" onkeyup="validateEmail()">
+        <span id="msg"></span>
+        <div class="password" id="password">
+            <p>pass less than 8 chars</p>
+        </div>
+        Password: <input type="text" id="two">
+        <button id="btn">add</button>
+    </form><br>
+    <!-- <form>
         Hour: <input type="number" id="time">
         <button id="tm">Heyoo</button>
     </form>
@@ -51,7 +58,7 @@
         <img src="gtr1.jpg" id="pic">
         <button onclick="change()">drop</button>
         <button onclick="back()">Back</button>
-    </div>
+    </div> -->
     <script src="js.js"></script>
 </body>
 </html>

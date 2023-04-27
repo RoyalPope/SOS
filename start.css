@@ -37,6 +37,15 @@ div p {
     width: 700px;
     height: 500px;
 }
+.email{
+    visibility: hidden;
+}
+.password{
+    visibility: hidden;
+}
+.active{
+    visibility: visible;
+}
 @media (width < 500px) {
     .image > img{
         width: 90%;
