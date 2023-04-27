@@ -72,3 +72,14 @@ btn.addEventListener('click', (e) => {
         password.classList.add("active");
     }
 })
+var one = document.getElementById("one");
+var label = document.getElementById("label");
+var msg = document.getElementById("msg");
+function validateEmail(){
+    if(!one.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        msg.innerHTML = "Please enter a valid email";
+        return false;
+    }
+    msg.innerHTML = "";
+    return true;
+}
