@@ -42,14 +42,14 @@
 // var myDiv = document.getElementById("root");
 // var p = document.createElement("p");
 // p.innerHTML = "Liverpool";
-// myDiv.append(p)
+// myDiv.append(p)  
 
-// function change(){
-//     document.getElementById("pic").src="gtr2.jpg";
-// }
-// function back(){
-//         document.getElementById("pic").src="gtr1.jpg";
-// }
+function change(){
+    document.getElementById("pic").src="gtr2.jpg";
+}
+function back(){
+        document.getElementById("pic").src="gtr1.jpg";
+}
 // var label = document.getElementById("label");
 // var msg = document.getElementById("msg");
 // function validateEmail(){

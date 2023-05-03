@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial Rounded MT';
+}
+
+button{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+    font-family: "GFS Neohellenic";
+    font-weight:900;
+    border: 3px solid #350005;
+    letter-spacing: 5px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1s;
+    margin-top: 20px;
+    background: #350005;
+    
+    
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    text-decoration: underline;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+/*    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 63%, rgba(136,1,1,1) 100%);*/
+    background-position: right;
+    background-image: url(fo1.jfif);
+    background-size: 1325px;
+    background-color:beige;
+    /* padding-left: 8%;
+    padding-right: 8%; */
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: #D7D7D7;
+    text-align: right;
+    border: none;
+    border-bottom: 4px solid #350005;
+
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #350005;
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+
+}
+.navbar ul li{
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Arial Rounded MT';
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #350005;
+}
+.navbar ul li i{
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar ul li span{
+    position: absolute;
+    right: 5%;
+}
+.navbar ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navbar img{
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    width: 90px;
+    cursor: pointer;
+}
+.row{
+    
+    /*!!!to correct the display!!!*/
+    
+    display: flex;
+    height: 88%;
+    align-items: center;
+    
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+    border: 3px solid #350005;
+    background: #D7D7D7;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.text h2{
+    font-weight: bolder;
+    margin: 0 0 30px;
+    padding: 0;
+    color: #350005;
+    text-align: center;
+    font-family: "Arial Rounded MT";
+    font-size: 25px;
+    
+}
+.text p{
+    text-align: justify;
+    color: #350005;
+}
+
+.cir{
+    background-color: #D7D7D7;
+    position: relative;
+    border: 4px solid #350005;
+    top: 1%;
+    left: -20%;
+    height: 100%;
+    width: 90%;
+    border-radius: 50%;
+}
+.col{
+    position: absolute;
+    left: 50%;
+    flex-basis: 100%;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px  25px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    box-shadow: 0 0 15px black;
+}
+.card1{
+    background-image: url(dodge.jpg);
+}
+.card2{
+    background-image: url(gtr3.jpg);
+}
+.card3{
+    background-image: url(lambo.jpg);
+}
+.card4{
+    background-image: url(Bmw.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px #350005;
+}
+h5{
+    color: white;
+    text-shadow: 0 0 8px;
+}
+.card p{
+    color: #350005;
+    text-shadow: 0 0 25px #000;
+    font-size: 8px;
+}
+
+/* side nav */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background-color: #5b5b5b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+.sidenav a {
+    float: left;
+    padding-left: 60px;
+    align-items: center;
+    padding-top: 60px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #D7D7D7;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Arial Rounded MT';
+}
+
+.sidenav a:hover {
+    color:  #350005;
+    background: none;
+}
+
+.sidenav .closebtn {
+    float: right;
+    top: -55px;
+    font-family: 'Arial Rounded MT';
+    position: absolute;
+    right: 30px;
+    font-weight: bolder;
+    font-size: 36px;
+/*    margin-ri: 50px;*/
+}
+
