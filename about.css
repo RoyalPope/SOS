@@ -111,3 +111,45 @@ body{
     font-size: 36px;
 /*    margin-ri: 50px;*/
 }
+.cir{
+    background-color: #D7D7D7;
+    position: absolute;
+    border: 4px solid #350005;
+    top: 23%;
+    left: 15%;
+    height: 100%;
+    width: 70%;
+    border-radius: 5%;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.895);
+}
+.text{
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: underline;
+    color: #350005;
+    font-size: 30px;
+}
+.cir .h1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 20px;
+    color: #350005;
+    text-decoration: underline;
+}
+.cir .h2{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 20px;
+    color: #350005;
+    text-decoration: underline;
+}
+.cir .h3{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 20px;
+    color: #350005;
+    text-decoration: underline;
+}
